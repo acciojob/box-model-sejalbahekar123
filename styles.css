@@ -1,1 +1,54 @@
-/*  your css code here. If applicable */
+body{
+padding:0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+div{
+    display:flex;
+	padding:15px;
+justify-content:center;
+	width:500px;
+	height:150px;
+	background-color:grey;
+border:solid;
+border-radius:25px;
+}
+.circle{
+
+    width:100px;
+	height:100px;
+	border-radius:50%;
+    padding:10px;
+ display:flex;
+	
+justify-content:center;
+align-items:center;
+
+}
+#one{
+	background-color:green;
+}
+#two{
+	background-color:yellow;
+}
+#three{
+background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
