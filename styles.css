@@ -4,20 +4,21 @@ padding:0px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
-div{
+.container{
     display:flex;
 	padding:15px;
 justify-content:center;
+align-items:center;
 	width:500px;
 	height:150px;
 	background-color:grey;
 border:solid;
 border-radius:25px;
 }
-.circle{
+.green,.yellow,.red{
 
     width:100px;
 	height:100px;
@@ -29,13 +30,14 @@ justify-content:center;
 align-items:center;
 
 }
-#one{
+.green{
+
 	background-color:green;
 }
-#two{
+.yellow{
 	background-color:yellow;
 }
-#three{
+.red{
 background-color:red;
 }
 
